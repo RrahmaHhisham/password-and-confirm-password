@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style-css/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <h1>your Password</h1>
+            <div class="input-box">
+                <label for="Password">Password</label>
+                <input type="password" id="Password" placeholder="password" required>
+                <label for="Confirm-Password">Confirm Password</label>
+                <input type="password" id="Confirm-Password" placeholder="Confirm Password" required>
+                <p id="message"></p>
+                <input type="button" onclick="checkPassword()" value="sure">
+            </div>
+            
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

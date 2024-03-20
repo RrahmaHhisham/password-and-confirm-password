@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-transform: capitalize;
+}
+
+label {
+  font-size: 600;
+  margin: 10px 0;
+
+}
+
+input {
+  display: block;
+  width: 500px;
+  padding: 10px;
+}
+
+#message {
+  margin: 15px 0;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+
